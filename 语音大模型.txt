@@ -1,0 +1,90 @@
+语音合成 TTS (Text-To-Speech) 的原理是什么？
+
+TTS技术从文本到语音经历了三个过程：文本分析、声学模型、波形合成。
+首先，它将文本分析和转换为音素序列。音素是语音的基本单元，是发音中最小的带有语音意义的音段。
+然后，音素序列被转换为声学特征，如音高、音量和语调等。这些声学特征被转换为数字信号，并通过音频输出设备转换为声音。
+所以说它的语音是合成的，这个说法确实没错。不过说那么多，不如大家亲自体验一下这项技术的实际运用吧。可以用下面这些TTS软件试一下文本转语音，就会知道现在的AI技术是多么神奇。
+
+声音模型测试 
+https://github.com/fishaudio/Bert-VITS2 
+
+算力市场
+https://www.codewithgpu.com/model
+
+Bert-VITS 2模型推理教学
+https://www.bilibili.com/read/cv28338539/?spm_id_from=333.999.0.0&jump_opus=1
+
+效果如下：
+https://www.bilibili.com/video/BV1DC4y197Gp/?spm_id_from=333.999.0.0&vd_source=3372fff6e7d234146cb42ebb89dd8445
+
+Video:https://www.bilibili.com/video/BV1hp4y1K78E
+Demo:https://www.bilibili.com/video/BV1TF411k78w
+
+请注意，本项目核心思路来源于anyvoiceai/MassTTS 一个非常好的tts项目
+MassTTS的演示demo为ai版峰哥锐评峰哥本人,并找回了在金三角失落的腰子
+
+观看：https://www.bilibili.com/video/BV1w24y1c7z9/?vd_source=aae6703b3293054ccb56e6f2fef39e3b
+          ai版峰哥锐评峰哥本人,并找回了在金三角失落的腰子    
+           交流群：808364215
+          本期视频使用了Fastpitch来合成峰哥声音，使用ChatGLM-LoRA对语言模型建模
+           项目地址：   MassTTS:https://github.com/anyvoiceai/MassTTS
+                              ChatGLM-LoRA:https://github.com/lich99/ChatGLM-finetune-LoRA
+                              主要容易冲突问题
+
+观看： Video:https://www.bilibili.com/video/BV1hp4y1K78E
+           原神在线TTS：genshinvoice.top
+
+观看：Demo:https://www.bilibili.com/video/BV1TF411k78w   还行
+
+亲爱的用户，如果您是第一次接触AI翻唱、变声、克隆、文本转语音 在购买模型之后，不会使用请参考以下视频和文章学习如何使用。 
+ RVC模型
+如电脑配置良好，有显卡，可参考此视频教学：
+https://mxgf.cc/rvc-bendi-jiaocheng/
+配置较差或使用MAC或集成显卡，建议云端推理：
+https://mxgf.cc/rvc-yunduanjiaocheng/
+SVC模型
+https://mxgf.cc/svc-jiaocheng/
+Bert-VITS 2模型
+https://mxgf.cc/bert-vits2/
+模型定制、教学 客服微信   xiaoming1870
+
+【Bert-Vits2】带标注功能的整合包！轻松训练属于你的“神之嘴”！
+https://www.bilibili.com/video/BV1yz4y1M71e/?spm_id_from=333.337.search-card.all.click&vd_source=aae6703b3293054ccb56e6f2fef39e3b
+
+Bert-VITS-2-一键整合包v2.0.2图文简介
+https://www.bilibili.com/read/cv27647393/?from=search&spm_id_from=333.337.0.0
+
+https://mxgf.cc/      模型工坊论坛
+
+Bert-VITS2在线训练，真实拟声、情感细腻，附神里绫华模型及教程！一键训练专属模型，全新语音合成技术！
+https://www.bilibili.com/video/BV1k84y1D7Ep/?spm_id_from=333.337.search-card.all.click&vd_source=aae6703b3293054ccb56e6f2fef39e3b
+
+bert-vits2可视化界面打开即用版本|文本转语音项目
+https://www.bilibili.com/video/BV16w411A76V/?spm_id_from=333.337.search-card.all.click&vd_source=aae6703b3293054ccb56e6f2fef39e3b
+链接: https://pan.baidu.com/s/1N1iJkx_kKsL4_3zp_5pFQw?pwd=a4x3 提取码: a4x3
+--来自百度网盘超级会员v4的分享
+夸克网盘    链接：https://pan.quark.cn/s/da384a94e3da
+
+Bert-vits2 v2.0.2本地训练一键整合包基于现有数据集(原神刻晴)
+https://www.bilibili.com/video/BV16b4y1u7om/?spm_id_from=333.337.search-card.all.click&vd_source=aae6703b3293054ccb56e6f2fef39e3b
+
+【AI】在线一键语音生成（Bert-VITS2）
+https://www.bilibili.com/video/BV1Ry4y1w7Cn/?spm_id_from=333.788&vd_source=aae6703b3293054ccb56e6f2fef39e3b
+地址：https://www.modelscope.cn/studios/MiDd1Eye/DZ-Bert-VITS2/summary
+
+免费文字转语音工具 5.3 支持Bert-Vits2模型、朗读功能
+https://www.bilibili.com/video/BV11N4y1o7Bp/?spm_id_from=333.337.search-card.all.click&vd_source=aae6703b3293054ccb56e6f2fef39e3b
+无需配置环境的整合包版本，支持Bert-vits2模型，微软语音合成助手5.3下载链接：https://pan.quark.cn/s/2b7106aa59f7
+
+本地训练,立等可取,30秒音频素材复刻霉霉讲中文音色基于Bert-VITS2V2.0.2
+https://www.bilibili.com/video/BV1VG411i7U3/?spm_id_from=333.337.search-card.all.click&vd_source=aae6703b3293054ccb56e6f2fef39e3b
+https://pan.baidu.com/s/1KtNb4wb4UbsHrwVKyTlT0g?pwd=v3uc
+
+【AI Hanser V2.0】在线一键语音生成 Bert-VITS2
+https://www.bilibili.com/video/BV1Tj411i7F5/?spm_id_from=333.337.search-card.all.click&vd_source=aae6703b3293054ccb56e6f2fef39e3b
+
+语音合成 TTS (Text-To-Speech) 的原理是什么？
+https://www.zhihu.com/question/26815523/answer/3198381535?utm_id=0
+
+云上成功跑出来
+https://www.bilibili.com/video/BV1Wm4y137aX/?spm_id_from=333.337.search-card.all.click&vd_source=aae6703b3293054ccb56e6f2fef39e3b
